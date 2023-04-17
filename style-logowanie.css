@@ -1,0 +1,73 @@
+
+.Naglowek
+{
+    background-image: URL(Logo.png);
+    background-repeat: no-repeat;
+    height: 291px;
+    width: 1009px;
+    margin:  15px auto;
+}
+
+.Sekcja-Login
+{
+    width: 700px;
+    height: 350px;
+    border: 2px solid #FF6699;
+    border-radius:40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  
+  
+}
+.Form-Login
+{
+    width: 60%;
+	font-size: 15px;
+    padding: auto;
+	
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: black 0.2em 0.2em 0.3em;
+
+}
+h1:hover{
+    color:#FF6699;
+    transition: color 0.3s;
+}
+
+
+
+
+input
+{
+   font-size:20px;
+   width: 400px;
+   height: 30px ;
+   border-radius:20px;
+   padding: 10px;
+   display: block;
+   margin: 15px auto ;
+
+}
+.Guzik{
+    width: 200px;
+    height: 60px ;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s;
+    font-size:30px;
+    padding: 15px;
+
+}
+.Guzik:hover
+{
+    color:#FF6699;
+    transition: color 0.3s;
+}
+
